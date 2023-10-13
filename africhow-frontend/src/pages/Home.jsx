@@ -22,7 +22,7 @@ const Home = () => {
   return (
     <div>
       <Fullscreen />
-      <div className='lg:hidden w-full bg-black-300 min-h-screen bg-opacity-25'>
+      <div className='lg:hidden md:hidden w-full bg-black-300 min-h-screen'>
         <Nav toggleMenu={toggleMenu} menuOpen={menuOpen} />
         <div className='snap-y snap-mandatory h-screen relative overflow-x-hidden'>
           <Hero /> 

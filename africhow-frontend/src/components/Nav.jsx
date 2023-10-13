@@ -7,14 +7,21 @@ import { Link } from "react-router-dom";
 const Nav = ({ toggleMenu, menuOpen , toggleDropdown }) => {
   return (
     <div className='lg:hidden px-10 py-6 bg-green-200 text-white flex justify-between items-center absolute top-0 right-0 left-0 z-10 bg-transparent'>
-      <h3 className='text-xl font-black text-white'>africhow</h3>
-      <div className='flex gap-6 pointer'>
+      <div className='flex gap-6'>
+        <img src= {HamBurger} alt="" srcset="" className='w-5 cursor-pointer rotate-180' onClick={toggleMenu} />
+        <h3 className='text-base font-black text-white'>Africhow</h3>
+      </div>
+      <div className='flex md:justify-center'>
+        <button className='text-sm bg-green-600 border-black text-white py-1 px-5 font-black pointer'>
+          Login
+        </button>
+      </div>
+      {/*<div>
         <Link to="/profile">
           <img src= {Avatar} alt="" srcset="" className='w-8 cursor-pointer' />
         </Link>
-        <img src= {HamBurger} alt="" srcset="" className='w-8 cursor-pointer' onClick={toggleMenu} />
         
-      </div>
+      </div>*/}
 
       {/* Close button */}
       {menuOpen && (

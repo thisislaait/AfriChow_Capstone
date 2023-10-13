@@ -1,19 +1,20 @@
 import React from 'react'
-import Order from "../assets/Hero Image (Tablet and Mobile).jpg";
+import Order from "../assets/Hero Image.jpg";
+import Accordion from "../components/Accordion"
 
 
 const Feature_One = () => {
   return (
     <div className='lg:hidden w-full min-h-screen bg-opacity-25'>
-        <div className='snap-y snap-mandatory h-screen relative flex flex-col justify-center'>
-          <section className='h-screen flex justify-center items-center snap-start'>
-                <img src= {Order} alt="" srcset="" className='w-60' />
-            </section>
-            <section className='h-screen snap-start w-full m-8 ml-10 -mr-6 mt-8'>
-                <h3 className='text-4xl font-bold mt-16'>Order Management</h3>
-                <p className='text-xl mt-8'>Simplify and track accepted orders, access bills and customer contacts with ease for an efficient delivery workflow</p>
-            </section>
-            
+        <div className='snap-y snap-mandatory h-screen relative flex flex-col justify-center px-8'>
+          <section className=' section-header h-screen snap-start w-full flex flex-col'>
+              <div className='text-center'>
+                <h3 className='text-4xl font-bold mt-16'>How it works</h3>
+                <hr className='border-b-2 border-black 2 w-12 mx-auto mt-4' />
+                <p className='text-sm py-4'>Simplify and track accepted orders, access bills and customer contacts with ease for an efficient delivery workflow</p>
+              </div>
+              <Accordion />
+          </section>
         </div>
     </div>
   )

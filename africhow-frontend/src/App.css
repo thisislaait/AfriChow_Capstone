@@ -7,7 +7,10 @@
 }
 
 .hero-image {
-  background-image: url(./assets/hero-banner.png);
+  background-image: url(./pages/Assets/hero-banner.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   
 }
 
@@ -21,4 +24,8 @@
   background-image: url(./assets/fullpage_banner.webp);
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.italic {
+  font-family:'Times New Roman', Times, serif
 }

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Nav from '../components/Nav';
+import Nav from '../components/navbar/Nav';
 import Hero from '../pages/Hero'; // Import the Hero component
 import F_One from '../pages/Feature_One';
 import F_Two from '../pages/Feature_Two';
@@ -22,9 +22,9 @@ const Home = () => {
   return (
     <div>
       <Fullscreen />
-      <div className='lg:hidden md:hidden w-full bg-black-300 min-h-screen'>
+      <div className='lg:hidden md:hidden w-full bg-black-300 h-screen'>
         <Nav toggleMenu={toggleMenu} menuOpen={menuOpen} />
-        <div className='snap-y snap-mandatory h-screen relative overflow-x-hidden'>
+        <div className='snap-y snap-mandatory h-screen relative '>
           <Hero /> 
           <F_One />
           <F_Two />

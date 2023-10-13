@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "../assets/Camp Images/Onay Beach.jpg";
-import Nav from "../components/Nav";
+import Nav from "../components/navbar/Nav";
 
 const Profile = () => {
 

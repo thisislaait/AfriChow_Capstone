@@ -1,14 +1,14 @@
 import React from 'react'
-import HamBurger from "../assets/hamburger white.svg";
-import Avatar from "../assets/avatar white.svg";
-import Close from "../assets/close.svg";
+import HamBurger from "../navbar/Assets/hamburger white.svg";
+import Close from "../navbar/Assets/Close.svg";
 import { Link } from "react-router-dom";
 
 const Nav = ({ toggleMenu, menuOpen , toggleDropdown }) => {
+
   return (
-    <div className='lg:hidden px-10 py-6 bg-green-200 text-white flex justify-between items-center absolute top-0 right-0 left-0 z-10 bg-transparent'>
-      <div className='flex gap-6'>
-        <img src= {HamBurger} alt="" srcset="" className='w-5 cursor-pointer rotate-180' onClick={toggleMenu} />
+    <div className='px-10 py-6 bg-green-200 text-white flex justify-between items-center top-0 right-0 left-0 z-10 bg-transparent'>
+      <div className='flex gap-6 '>
+        <img src= {HamBurger} alt="" srcset="" className='w-8 cursor-pointer rotate-180 border-2 border-black p-2 bg-black' onClick={toggleMenu} />
         <h3 className='text-base font-black text-white'>Africhow</h3>
       </div>
       <div className='flex md:justify-center'>
@@ -41,12 +41,7 @@ const Nav = ({ toggleMenu, menuOpen , toggleDropdown }) => {
             <li className='my-5 cursor-pointer' onClick={toggleDropdown}>
               <h1>FAQs</h1>
             </li>
-            <li className='my-4 cursor-pointer mb-5' onClick={toggleMenu}>
-              <a href='#order-management'>Order Management</a>
-            </li>
-            <li className='my-4 cursor-pointer mb-10' onClick={toggleMenu}>
-              <a href='#sales-analytics'>Sales Analytics</a>
-            </li>
+            
           </ul>
           <div className='mt-auto p-4 flex items-center gap-4'>
             <p id='subscribe' className='text-sm font-semibold'>Join Our Mailing List</p>

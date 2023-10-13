@@ -1,6 +1,7 @@
 import React from 'react'
 import HamBurger from "../navbar/Assets/hamburger white.svg";
 import Close from "../navbar/Assets/Close.svg";
+import Services from "../navbar/Services"
 import { Link } from "react-router-dom";
 
 const Nav = ({ toggleMenu, menuOpen , toggleDropdown }) => {
@@ -25,9 +26,10 @@ const Nav = ({ toggleMenu, menuOpen , toggleDropdown }) => {
 
       {/* Close button */}
       {menuOpen && (
-        <div className='absolute top-4 right-140 cursor-pointer' >
-          <div className='h-3 w-10 py-2 pr-4'>
+        <div className='absolute top-8 left-16 cursor-pointer flex items-center gap-20' >
+          <div className='h-3 w-10 py-2 pr-4 flex justify-center items-center gap-3' >
             <img src= { Close } alt="" srcset="" className='z-30 relative stroke-current' onClick={toggleMenu} />
+            <h3 className='z-30 text-gray-500 font-semibold' onClick={toggleMenu} >Menu</h3>
           </div>
         </div>
       )}
@@ -36,12 +38,11 @@ const Nav = ({ toggleMenu, menuOpen , toggleDropdown }) => {
       
       {/* full screen menu */}
       {menuOpen && (
-        <div className='fixed top-0 left-0 right-16 bottom-0 pt-16 bg-green-100 text-black flex flex-col items-center justify-center ease-out delay-500s duration-300'>
+        <div className='fixed top-0 left-0 right-16 bottom-0 pt-16 bg-green-100 text-black flex flex-col items-center justify-center ease-out delay-500s duration-300 z-20'>
           <ul className='text-2xl font-semibold mb-5'>
             <li className='my-5 cursor-pointer' onClick={toggleDropdown}>
-              <h1>FAQs</h1>
+              <Services />
             </li>
-            
           </ul>
           <div className='mt-auto p-4 flex items-center gap-4'>
             <p id='subscribe' className='text-sm font-semibold'>Join Our Mailing List</p>

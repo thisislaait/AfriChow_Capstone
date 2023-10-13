@@ -1,6 +1,6 @@
 import {useState} from 'react'
 import Accordion from "../components/accordions/Accordion"
-import processData from "../data/how-it-works"
+import processData from "../components/data/how-it-works"
 
 
 const Feature_One = () => {

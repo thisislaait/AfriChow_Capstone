@@ -16,3 +16,9 @@
   line-height: 2.1rem;
   font-family: 'Manrope';
 }
+
+.fullscreen {
+  background-image: url(./assets/fullpage_banner.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+}

@@ -11,7 +11,6 @@ function App() {
       <Routes>
         <Route path="/" exact Component={Home} />
         <Route path="/profile" exact Component={Profile} />
-
       </Routes>
     </Router>
   )

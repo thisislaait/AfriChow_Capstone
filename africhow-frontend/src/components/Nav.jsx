@@ -31,7 +31,7 @@ const Nav = ({ toggleMenu, menuOpen , toggleDropdown }) => {
       {menuOpen && (
         <div className='fixed top-0 left-0 right-16 bottom-0 pt-16 bg-green-100 text-black flex flex-col items-center justify-center ease-out delay-500s duration-300'>
           <ul className='text-2xl font-semibold mb-5'>
-            <li className='my-4 cursor-pointer my-5' onClick={toggleDropdown}>
+            <li className='my-5 cursor-pointer' onClick={toggleDropdown}>
               <h1>FAQs</h1>
             </li>
             <li className='my-4 cursor-pointer mb-5' onClick={toggleMenu}>

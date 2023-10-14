@@ -21,24 +21,15 @@ const processData = [
     },
     {
       id: 5,
-      action: 'Market Expansion',
-      process: 'Expand your brand reach to new geographical areas and customer segments for increased revenue and growth.',
+      action: 'See your sales',
+      process: 'Get started as....',
     },
     {
       id: 6,
-      action: 'Data-Driven Insights',
-      process: 'Harness data analytics to make informed decisions, optimize operations and enhance profitability.',
+      action: 'Refer a friend',
+      process: 'Get started as....',
     },
-    {
-      id: 7,
-      action: 'Sales Optimization',
-      process: 'Maximize revenue with efficient sales tracking, promotions and customer engagement strategies.',
-    },
-    {
-      id: 8,
-      action: 'Streamlined Pre-orders',
-      process: 'Simplify the ordering process for customers and boost operational efficiency for faster service.',
-    },
+
   ];
   
   export default processData;

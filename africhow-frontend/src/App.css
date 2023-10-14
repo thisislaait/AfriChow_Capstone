@@ -6,12 +6,19 @@
   font-family: 'Poppins';
 }
 
+.bkground {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .hero-image {
   background-image: url(./pages/Assets/hero-banner.png);
   background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  
+}
+
+.section-banner {
+  background-image: url(./pages/Assets/banner-three.png);
+  background-position: center;
 }
 
 .hero-text {
@@ -22,10 +29,23 @@
 
 .fullscreen {
   background-image: url(./assets/fullpage_banner.webp);
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .italic {
   font-family:'Times New Roman', Times, serif
+}
+
+.meal_price  {
+  font-size: 6px;
+}
+
+.meal_name , .add_meal {
+  font-size: 8px;
+}
+
+.feature-btn h3 {
+  font-size: 13px;
+}
+.feature-btn a {
+  font-size: 11px;
 }

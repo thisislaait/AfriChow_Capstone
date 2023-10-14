@@ -2,6 +2,8 @@ import React from 'react'
 import HamBurger from "../navbar/Assets/hamburger white.svg";
 import Close from "../navbar/Assets/Close.svg";
 import Services from "../navbar/Services"
+import TargetUsers from "../navbar/TargetUsers"
+import Support from "../navbar/Support"
 import { Link } from "react-router-dom";
 
 const Nav = ({ toggleMenu, menuOpen , toggleDropdown }) => {
@@ -38,10 +40,12 @@ const Nav = ({ toggleMenu, menuOpen , toggleDropdown }) => {
       
       {/* full screen menu */}
       {menuOpen && (
-        <div className='fixed top-0 left-0 right-16 bottom-0 pt-16 bg-green-100 text-black flex flex-col items-center justify-center ease-out delay-500s duration-300 z-20'>
+        <div className='fixed top-0 left-0 right-16 bottom-0 pt-8 bg-green-100 text-black flex flex-col items-center justify-center ease-out delay-500s duration-300 z-20'>
           <ul className='text-2xl font-semibold mb-5'>
             <li className='my-5 cursor-pointer' onClick={toggleDropdown}>
               <Services />
+              <TargetUsers />
+              <Support />
             </li>
           </ul>
           <div className='mt-auto p-4 flex items-center gap-4'>

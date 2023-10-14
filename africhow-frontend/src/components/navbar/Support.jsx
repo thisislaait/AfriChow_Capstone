@@ -6,7 +6,7 @@ import Services from "../accordions/Services"
 
 const Dropdown = () => {
 
-  const specificIDs = [2]
+  const specificIDs = [4]
   const filteredData = processData.filter(item => specificIDs.includes(item.id));
 
   const handleAccordionClick = (Services) => {

@@ -9,11 +9,11 @@ const navData = [
     },
     {
       id: 3,
-      action: 'Who We Serve',
+      title: 'Who We Serve',
     },
     {
       id: 4,
-      action: 'Support',
+      title: 'Support',
     },
   ];
   

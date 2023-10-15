@@ -9,16 +9,19 @@ const Feature_Two = () => {
   const filteredData = processData.filter(item => specificIDs.includes(item.id));
 
   return (
-    <div className='lg:hidden w-full mt-16 min-h-screen bg-opacity-25'>
-        <div className='h-screen relative flex flex-col justify-center px-8 '>
-          <section className='-mt-20'>
-            <div className='text-center'>
+    <div className='lg:hidden w-full mt-2 min-h-full bg-opacity-25'>
+        <div className='flex flex-col justify-center px-8 '>
+          <section className='text-center -mt-28'>
               <h3 className='text-4xl font-black '>FAQS</h3>
               <hr className='border-b-2 border-black w-12 mx-auto my-4' />
               <p className='text-xs mb-6'>Simplify and track accepted orders, access bills and customer contacts with ease for an efficient delivery workflow</p>
-            </div>
           </section>
           <section className='h-full section-banner bkground w-full rounded-2xl'>
+            <div className='py-3 px-5 font-bold'>
+              <h1 className='text-5xl text-white'>100%</h1>
+              <h1 className='text-sm'>payout</h1>
+              <button className='banner-btn text-white px-2 py-1 rounded-sm -pt-6 bg-black'>first 30 days</button>
+            </div>
           </section>
 
           <section className=' h-full flex justify-center item-center w-full'>

@@ -1,22 +1,22 @@
 const processData = [
     {
       id: 1,
-      action: 'Register',
-      process: 'Get started as....',
+      action: 'What payment methods are available?',
+      process: 'Paypal, Stripe, and online transfers',
     },
     {
       id: 2,
-      action: 'Get Verified',
+      action: 'How can I track and manage new orders?',
       process: 'Get started as....',
     },
     {
       id: 3,
-      action: 'Add a meal listing',
+      action: 'Are there tools to help promote menu items?',
       process: 'Get started as....',
     },
     {
       id: 4,
-      action: 'Start receiving orders',
+      action: 'How often are payouts made?',
       process: 'Get started as....',
     },
     {

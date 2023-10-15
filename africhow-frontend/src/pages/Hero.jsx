@@ -11,7 +11,7 @@ const Hero = () => {
             Connect <br/>with <span className='italic'>hungry</span> <br/>Customers
           </h1>
           <div className='flex md:justify-center'>
-            <button className='text-base bg-lime-700 text-white py-3 px-5 font-black mt-4 pointer'>
+            <button className='text-base bg-lime-700 bg-opacity-80 rounded-md text-white py-3 px-5 font-bold mt-4 pointer'>
               Get Started Today <span> &rarr; </span>
             </button>
           </div>

@@ -12,7 +12,7 @@ const Nav = ({ toggleMenu, menuOpen , toggleDropdown }) => {
         <h3 className='text-base font-black text-white'>Africhow</h3>
       </div>
       <div className='flex md:justify-center'>
-        <button className='text-sm bg-green-600 border-black text-white py-1 px-5 font-black pointer'>
+        <button className='text-sm bg-lime-700 rounded-sm bg-opacity-80 text-white py-1 px-5 font-black pointer'>
           Login
         </button>
       </div>
@@ -37,7 +37,7 @@ const Nav = ({ toggleMenu, menuOpen , toggleDropdown }) => {
       
       {/* full screen menu */}
       {menuOpen && (
-        <div className='fixed top-0 left-0 right-16 bottom-0 pt-8 bg-green-100 text-black flex flex-col justify-center items-start gap-3 z-20 pl-7'>
+        <div className='fixed top-0 left-0 right-16 bottom-0 pt-8 bg-lime-100 text-black flex flex-col justify-center items-start gap-3 z-20 pl-7'>
           <ul className='text-2xl font-semibold mb-5'>
             <li className='my-5 cursor-pointer' onClick={toggleDropdown}>
             <Nav_Drop />

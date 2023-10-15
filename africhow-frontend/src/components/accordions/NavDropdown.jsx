@@ -19,17 +19,17 @@ const NavDropdown = (props) => {
                 <span> &#129171; </span>
             </div>
         </div>
-        <div className='bg-white px-8'>
-            <div className='overflow-hidden w-full text-base max-h-0 group-[.is-active]:max-h-[20px] font-bold'>
+        <div className='pr-8 pl-2 rounded-md'>
+            <div className='overflow-hidden w-full pt-3 text-base max-h-0 group-[.is-active]:max-h-[100px] font-bold pb-1'>
                 {item.action1}
             </div>
-            <div className=' text-xs pl-12 pr-4 overflow-hidden max-h-0 group-[.is-active]:max-h-[80px]'>
+            <div className='text-xs overflow-hidden max-h-0 group-[.is-active]:max-h-[150px] '>
                 {item.process1}
             </div>
-            <div className='overflow-hidden w-full text-base max-h-0 group-[.is-active]:max-h-[20px] font-bold'>
+            <div className='overflow-hidden w-full text-base max-h-0 group-[.is-active]:max-h-[100px] font-bold'>
                 {item.action2}
             </div>
-            <div className=' text-xs pl-12 pr-4 overflow-hidden max-h-0 group-[.is-active]:max-h-[100px]'>
+            <div className=' text-xs overflow-hidden max-h-0 group-[.is-active]:max-h-[100px]'>
                 {item.process2}
             </div>
         </div>

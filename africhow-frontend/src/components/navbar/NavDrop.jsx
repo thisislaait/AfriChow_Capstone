@@ -12,7 +12,7 @@ const Nav_Drop = () => {
   return (
     <div className='lg:hidden w-full bg-opacity-25'>
         <div className='flex flex-col justify-center px-8'>
-          <section className=' mt-4 w-full flex flex-col'>
+          <section className=' mt-8 w-full flex flex-col'>
               {
                 filteredData.map((item, key) => (
                   <Accordion key={key} data={item}/>

@@ -1,7 +1,7 @@
 const navData = [
   {
     id: 5,
-    title: 'Our Offerings',
+    title: 'Join the Trybe',
     action1: 'Market Expansion',
     process1: 'Expand your brand reach to new geographical areas and customer segments for increased revenue and growth.',
     action2: 'Data-Driven Insights',
@@ -13,9 +13,9 @@ const navData = [
   },
   {
     id: 6,
-    title: 'Who We Serve',
-    action1: 'Data-Driven Insights',
-    process1: 'Harness data analytics to make informed decisions, optimize operations and enhance profitability.',
+    title: 'Where We Serve',
+    action1: 'Our top locations',
+    process1: 'Canada, America, United Kingdom',
   },
   {
     id: 7,
@@ -25,7 +25,25 @@ const navData = [
   },
   {
     id: 8,
-    title: 'About',
+    title: 'KYC onboarding',
+    action1: 'Streamlined Pre-orders',
+    process1: 'Simplify the ordering process for customers and boost operational efficiency for faster service.',
+  },
+  {
+    id: 9,
+    title: 'Reward Badges',
+    action1: 'Our top locations',
+    process1: 'Canada, America, United Kingdom',
+  },
+  {
+    id: 10,
+    title: 'Support',
+    action1: 'Sales Optimization',
+    process1: 'Maximize revenue with efficient sales tracking, promotions and customer engagement strategies.',
+  },
+  {
+    id: 11,
+    title: 'KYC onboarding',
     action1: 'Streamlined Pre-orders',
     process1: 'Simplify the ordering process for customers and boost operational efficiency for faster service.',
   },

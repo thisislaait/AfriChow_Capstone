@@ -19,7 +19,7 @@ const Accordion = (props) => {
                 <span> &rarr; </span>
             </div>
         </div>
-        <div className=' text-sm overflow-hidden max-h-0 group-[.is-active]:max-h-[50px]'>
+        <div className=' text-sm overflow-hidden max-h-0 group-[.is-active]:max-h-[100px]'>
             {item.process}
         </div>
     </div>

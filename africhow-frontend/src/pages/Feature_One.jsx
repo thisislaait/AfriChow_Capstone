@@ -16,7 +16,7 @@ const Feature_One = () => {
               </div>
           </section>
           <section className=' section-header w-full flex flex-col justify-between gap-6 mt-8 mb-24 '>
-              <div className='text-center border-2 border-gray-200 rounded-md px-4 shadow-lg bg-lime-300 bg-opacity-70'>
+              <div className='text-center border-2 border-gray-200 rounded-md px-4 shadow-lg bg-[#D5F8EE] bg-opacity-63'>
                 <h3 className='text-base font-bold mt-4'>Elevate your restaurant</h3>
                 <p className='text-xs py-4'>From enabling a hassle free preorder process, to intuitive sales management, we provide the tools you need for your restaurant to thrive</p>
 
@@ -55,17 +55,17 @@ const Feature_One = () => {
                   </div>
                   <div className='text-center border-2 border-gray-200 rounded-md px-4 shadow-lg'>
                     <h3 className='text-base font-bold mt-4'>Track Orders</h3>
-                    <p className='text-xs py-4'>Captivate new customers drawn to African cuisine with your location.</p>
+                    <p className='text-xs py-4'>Maximize your earnings through effective sales monitoring.</p>
                   </div>
                 </div>
                 <div className='flex flex-col w-1/2 h-full gap-2'>
                   <div className='text-center border-2 border-gray-200 rounded-md h-1/2 px-4 pb-2'>
-                    <h3 className='text-base font-bold mt-4'>View Payouts</h3>
-                    <p className='text-xs py-4'>Captivate new customers drawn to African cuisine with your location.Captivate new customers.</p>
+                    <h3 className='text-base font-bold mt-4'>Unlock Efficiency</h3>
+                    <p className='text-xs py-4'>Optimize operations and make informed decisions and profitability.</p>
                   </div>
-                  <div className='feature-btn text-start border-2 border-gray-200 rounded-md px-4 pb-5 shadow-lg bg-lime-300 bg-opacity-70'>
+                  <div className='feature-btn text-start border-2 border-gray-200 rounded-md text-white px-4 pb-5 shadow-lg bg-[#073a49] bg-opacity-80'>
                     <h3 className='text-sm font-bold mt-3'>See other features here</h3>
-                    <a href="http://" className='border-b pb-1 border-black font-semibold'>See more <span> &rarr; </span></a>
+                    <a href="http://" className='border-b pb-1 border-white font-semibold'>See more <span> &rarr; </span></a>
                   </div>
                 </div>
               </div>

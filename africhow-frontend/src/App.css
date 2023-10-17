@@ -4,6 +4,12 @@
 
 #root {
   font-family: 'Poppins';
+  width: 100%;
+  
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
 
 .bkground {

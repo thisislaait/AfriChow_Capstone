@@ -15,12 +15,12 @@ const NavDropdown = (props) => {
             <div className='w-full text-2xl group-[.is-active]:font-bold'>
                 {item.title}
             </div>
-            <div className='mt-4 text-xl group-[.is-active]:rotate-[270deg]' onClick={handletoggleActive}>
-                <span> &#129171; </span>
+            <div className='mt-1 text-xl group-[.is-active]:rotate-[270deg]' onClick={handletoggleActive}>
+                {/*<span> &#129171; </span>*/}
             </div>
         </div>
         <div className='pr-8 pl-2 rounded-md'>
-            <div className='overflow-hidden w-full pt-3 text-base max-h-0 group-[.is-active]:max-h-[100px] font-bold pb-1'>
+            <div className='overflow-hidden w-full pt-1 text-base max-h-0 group-[.is-active]:max-h-[100px] font-bold pb-1'>
                 {item.action1}
             </div>
             <div className='text-xs overflow-hidden max-h-0 group-[.is-active]:max-h-[150px] '>

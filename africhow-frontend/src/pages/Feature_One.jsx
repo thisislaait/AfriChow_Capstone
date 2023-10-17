@@ -51,17 +51,38 @@ const Feature_One = () => {
                 <div className='flex flex-col w-1/2 gap-2'>
                   <div className='text-center border-2 border-gray-200 rounded-md px-4 '>
                     <h3 className='text-base font-bold mt-4'>View Payouts</h3>
-                    <p className='text-xs py-4'>Captivate new customers drawn to African cuisine with your location.</p>
+                    <p className='text-xs py-4'>Captivate new customers drawn to African cuisine with your location. </p>
+                    <div className='flex justify-between items-center border p-2 banner-btn bg-green-200 font-bold mb-2'>
+                      <h3> June 2023 </h3>
+                      <h3> $1,007.20 </h3>
+                    </div>
+                    
                   </div>
                   <div className='text-center border-2 border-gray-200 rounded-md px-4 shadow-lg'>
                     <h3 className='text-base font-bold mt-4'>Track Orders</h3>
-                    <p className='text-xs py-4'>Maximize your earnings through effective sales monitoring.</p>
+                    <p className='text-xs py-4'>Maximize your returns through effective sales monitoring.</p>
+                    <div className='flex justify-between items-center border p-2 banner-btn bg-green-200 font-bold mb-3'>
+                      <h3> Ego Sadiq </h3>
+                      <h3> x1 Rice bowl </h3>
+                    </div>
                   </div>
                 </div>
                 <div className='flex flex-col w-1/2 h-full gap-2'>
                   <div className='text-center border-2 border-gray-200 rounded-md h-1/2 px-4 pb-2'>
                     <h3 className='text-base font-bold mt-4'>Unlock Efficiency</h3>
                     <p className='text-xs py-4'>Optimize operations and make informed decisions and profitability.</p>
+                    <div className='flex justify-between items-center border p-2 banner-btn bg-green-200 font-bold'>
+                      <h3> June 2023 </h3>
+                      <h3> $1,007.20 </h3>
+                    </div>
+                    <div className='flex justify-between items-center border p-2 banner-btn bg-green-200 font-bold mt-1'>
+                      <h3> June 2023 </h3>
+                      <h3> $1,007.20 </h3>
+                    </div>
+                    <div className='flex justify-between items-center border p-2 banner-btn bg-green-200 font-bold mt-1'>
+                      <h3> June 2023 </h3>
+                      <h3> $1,007.20 </h3>
+                    </div>
                   </div>
                   <div className='feature-btn text-start border-2 border-gray-200 rounded-md text-white px-4 pb-5 shadow-lg bg-[#073a49] bg-opacity-80'>
                     <h3 className='text-sm font-bold mt-3'>See other features here</h3>
